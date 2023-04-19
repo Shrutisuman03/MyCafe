@@ -1,0 +1,21 @@
+<div class="signup-container">
+    <h2>Sign Up</h2>
+    <form (ngSubmit)="onSubmit(form.value)" #form="ngForm">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required ngModel>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required ngModel>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required ngModel>
+        <label for="confirmpassword">Confirm Password</label>
+        <input type="password" id="confirmpassword" name="confirmpassword" required ngModel>
+        <input type="submit" value="Sign Up">
+        <!-- /* ye click event submit k pass krna hai taki hm esko ts file k signupdetails m 
+        jo data dnge 
+       // (click)="signupdetails()"
+        <input type="submit" value="Sign Up" (click)="signupdetails()" >
+       */ -->
+
+    </form>
+    <p>Already have an account? <a routerLink="login">Log in here</a></p>
+</div>

@@ -1,0 +1,53 @@
+#main-div-bcg {
+    /* height: 500px; */
+    width: 100%;
+    /* background-image: url(../../assets/img/resturantimg1.jpg); */
+}
+
+#img-id {
+    height: 500px;
+    width: 100%;
+}
+
+#list-restarnt-div {
+    height: 800px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#div-india-logo-paragraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#india-logo {
+    margin-top: 10px;
+    height: 60px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+#city-reso {
+    height: 80px;
+    width: 320px;
+    border: 1px solid rgb(248, 245, 245);
+    margin-top: 200px;
+    margin-left: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+#city-name {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 2px;
+    font-style: sans-serif;
+}
+
+#arrow {
+    margin-top: 13px;
+    margin-left: 8px;
+    height: 80px;
+}

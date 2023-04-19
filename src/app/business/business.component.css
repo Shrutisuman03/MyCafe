@@ -1,0 +1,233 @@
+#entire-div {
+    border: 2px solid black;
+    width: 100%;
+    height: 126vh;
+}
+
+#img {
+    background-image: url("../../assets/img/businessimg.jpg");
+    background-size: cover;
+    margin-top: 4px;
+    margin-left: -8px;
+    margin-right: 500px;
+    margin-bottom: -20px;
+    height: 50vh;
+    width: 100%;
+    border: 1px solid red;
+}
+
+#p {
+    text-align: center;
+    margin-top: 190px;
+}
+
+#cp {
+    color: white;
+}
+
+#ft {
+    border: 1px solid rgb(174, 170, 170);
+    text-align: center;
+    height: 272px;
+    width: 550px;
+    margin-left: 29%;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#maindiv {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+#registor-btn-size {
+    width: 300px;
+    height: 40px;
+}
+
+#registor-btn-login {
+    width: 300px;
+    height: 40px;
+    margin-left: 19px;
+}
+
+
+/* #p-id {} */
+
+#p-in-id {
+    font-size: 14px;
+    font-weight: 400px;
+    color: "red";
+    /* border: 2px solid black; */
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+}
+
+li {
+    width: 200px;
+    border: 1px solid black;
+}
+
+.fortick {
+    display: flex;
+}
+
+.font-sty {
+    font-family: sans-serif;
+}
+
+#headline-why-mycafe {
+    height: 30vh;
+    /* background: center; */
+    text-align: center;
+}
+
+
+/* card wale ka css code */
+
+#main-card-div {
+    /* border: 3px solid black; */
+    width: 100%;
+    height: 180px;
+    display: flex;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* ye div card wala hai eske andar card section kiya hai meine */
+}
+
+#how-it-work-text {
+    /* border: 3px solid rgb(151, 144, 144); */
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    margin-left: 39vw;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -37vh;
+    /* padding-top: 50px; */
+}
+
+#card1 {
+    border: 3px solid rgb(151, 144, 144);
+    width: 22%;
+    height: 80px;
+    margin-left: 180px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 5px 10px #747373;
+    background-color: rgb(255, 255, 255);
+}
+
+#card2 {
+    border: 3px solid rgb(151, 144, 144);
+    width: 22%;
+    height: 80px;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 5px 10px #747373;
+    background-color: rgb(255, 255, 255);
+}
+
+#card3 {
+    border: 3px solid rgb(151, 144, 144);
+    width: 22%;
+    height: 80px;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 5px 10px #747373;
+    background-color: rgb(255, 255, 255);
+    ;
+}
+
+.p {
+    color: rgb(40, 112, 239);
+    /* font-size: 700px; */
+}
+
+#it-work-div {
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background-color: rgb(242, 247, 250);
+}
+
+#how-it-wrk1 {
+    border: 1px solid rgb(151, 144, 144);
+    width: 23%;
+    height: 250px;
+    margin-left: 180px;
+    /* border-radius: 10px; */
+    margin-top: 130px;
+    text-align: center;
+    /* box-shadow: 5px 10px #747373; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+#how-it-wrk2 {
+    border: 1px solid rgb(151, 144, 144);
+    width: 23%;
+    height: 250px;
+    margin-left: 20px;
+    /* border-radius: 10px; */
+    margin-top: 130px;
+    text-align: center;
+    /* box-shadow: 5px 10px #747373; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+#how-it-wrk3 {
+    border: 1px solid rgb(151, 144, 144);
+    width: 23%;
+    height: 250px;
+    margin-left: 20px;
+    /* border-radius: 10px; */
+    margin-top: 130px;
+    text-align: center;
+    /* box-shadow: 5px 10px #747373; */
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+#half-it-work {
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background-color: rgb(251, 250, 209);
+}
+
+.wp {
+    margin-top: 18px;
+    font-size: 20px;
+    color: rgb(40, 112, 239);
+    border: 1px solid black;
+}
+
+.img_howit {
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 49px;
+}
+
+
+/* #how-p {
+    text-align: center;
+    display: flex;
+} */

@@ -1,0 +1,162 @@
+.food-item {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#h1-heading-order {
+    margin-left: 25px;
+}
+
+.details {
+    display: flex;
+    /* border: 2px solid black; */
+    flex-direction: row;
+    /* width: 100px; */
+    margin-top: 10px;
+    /* background-color: #777; */
+}
+
+#chai_img {
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    align-items: center;
+    margin-left: 20px;
+}
+
+#span-chai-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#rate-id {
+    margin-left: 70px;
+    /* border: 2px solid black; */
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(58, 183, 87);
+}
+
+.food-item img {
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.food-item .details {
+    display: flex;
+    flex-direction: column;
+}
+
+.food-item .details h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.food-item .details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #777;
+}
+
+.food-item .details .price {
+    font-size: 20px;
+    color: #f00;
+}
+
+#griding {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+/* ye niche item ka container hai div grid container */
+
+
+/* ye items wala click krne pe div hai niche */
+
+#items-bar {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+    /* height: 120px; */
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    /* background-color: rgb(83, 77, 76); */
+    color: rgb(10, 10, 10);
+}
+
+#paneer-img {
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+#paneer-details {
+    margin-left: 15px;
+}
+
+
+/* ye code star wale rating ka hai  */
+
+.rating {
+    font-size: 0;
+    /* Remove space between spans */
+}
+
+.star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../../assets/img/yellowstar.jpg");
+    /* Replace with path to your star icon */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#unrated_star {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 20px;
+}
+
+#add {
+    color: rgb(26, 115, 232);
+}
+
+#delete {
+    color: rgb(26, 115, 232);
+}
+
+.star::before {
+    content: "\2605";
+    /* Unicode character for a filled star */
+    color: #FFD700;
+    /* Set color to yellow */
+    position: absolute;
+    opacity: 0;
+    /* Hide the star initially */
+}
+
+.star:hover::before,
+.star:hover~.star::before {
+    opacity: 1;
+}

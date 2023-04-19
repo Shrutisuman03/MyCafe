@@ -1,0 +1,32 @@
+#bckimg {
+    background-image: url("../../assets/img/bcknew.jpg");
+    background-image: linear-gradient(to right, rgb(227, 164, 94), rgb(241, 243, 244));
+    background-size: cover;
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin: bottom -20px;
+}
+
+#footp {
+    color: white;
+    text-align: center
+}
+
+#myhead {
+    font-family: Display;
+}
+
+
+/* how to use padding margin and border sir ne yaha btya hai */
+
+
+/* li {
+    border: 10px solid black;
+    padding: 20px;
+    margin: 30px;
+    margin-left: 100px;
+} */
+
+
+/* #mymoto {} */
